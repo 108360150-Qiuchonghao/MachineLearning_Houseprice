@@ -1,5 +1,5 @@
 1.Kaggle比賽簡介：
-![image](https://github.com/MachineLearningNTUT/regression-T108360150/blob/main/IMG/Description.png)
+![image](https://github.com/108360150-Qiuchonghao/MachineLearning_Houseprice/blob/main/IMG/Description.png)
 
 2.檔案介紹：
 
@@ -24,8 +24,8 @@
 3.程式：
 
 我使用 jupyter notebook 編譯程式
-![image](https://github.com/MachineLearningNTUT/regression-T108360150/blob/main/IMG/jupyter1.jpg)
-![image](https://github.com/MachineLearningNTUT/regression-T108360150/blob/main/IMG/jupyter2.jpg)
+![image](https://github.com/108360150-Qiuchonghao/MachineLearning_Houseprice/blob/main/IMG/jupyter1.jpg)
+![image](https://github.com/108360150-Qiuchonghao/MachineLearning_Houseprice/blob/main/IMG/jupyter2.jpg)
 
 程式：
         TRAIN PART：
@@ -81,8 +81,8 @@
         losses.plot()
         model.summary()
         #訓練結果如圖所示：
-![image](https://github.com/MachineLearningNTUT/regression-T108360150/blob/main/IMG/figure1.png)
-![image](https://github.com/MachineLearningNTUT/regression-T108360150/blob/main/IMG/figure2.png)
+![image](https://github.com/108360150-Qiuchonghao/MachineLearning_Houseprice/blob/main/IMG/figure1.png)
+![image](https://github.com/108360150-Qiuchonghao/MachineLearning_Houseprice/blob/main/IMG/figure2.png)
          
 #adam優化器介紹：https://www.jianshu.com/p/aebcaf8af76e
        
@@ -96,7 +96,7 @@
                                         f.write(str(i+1)+','+str(float(pred[i]))+'\n')
 
 Kaggle上傳：
-![image](https://github.com/MachineLearningNTUT/regression-T108360150/blob/main/IMG/kaggle_sub.png)
+![image](https://github.com/108360150-Qiuchonghao/MachineLearning_Houseprice/blob/main/IMG/kaggle_sub.png)
 
 
 
@@ -109,7 +109,7 @@ Kaggle上傳：
 
   AutoGluon House predict:
 
-![image](https://github.com/MachineLearningNTUT/regression-T108360150/blob/main/IMG/AutoGluon1.png)
+![image](https://github.com/108360150-Qiuchonghao/MachineLearning_Houseprice/blob/main/IMG/AutoGluon1.png)
 
         #訓練
         from autogluon.tabular import TabularDataset, TabularPredictor
@@ -125,7 +125,7 @@ Kaggle上傳：
         submission1.to_csv('tabular_pred.csv',index=False)
 
  Kaggle上傳：
-![image](https://github.com/MachineLearningNTUT/regression-T108360150/blob/main/IMG/tabular2.png)
+![image](https://github.com/108360150-Qiuchonghao/MachineLearning_Houseprice/blob/main/IMG/tabular2.png)
 雖然這個工具很強大，我們也應該對其進行人工的數據預處理來達到更好的效果，不過我現在的能力還沒辦法實現，希望能在幾周後再來嘗試，得到更好的成績。
 
 當然也不能過於依賴這個強大的工具包，還是要從機器學習的最底層的觀念去學習，為將來研發新技術打好基礎。
